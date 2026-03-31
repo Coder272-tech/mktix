@@ -35,6 +35,9 @@ export default function Home() {
             center.
           </p>
         </div>
+		<div className="bg-blue-600 text-white p-4 rounded-lg shadow-lg font-bold">
+        Tailwind v3.4 Legacy Test: If this is blue with white text, it works!
+      </div>
         <div className={styles.ctas}>
           <a
             className={styles.primary}
